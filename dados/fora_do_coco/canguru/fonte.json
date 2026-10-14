@@ -1,0 +1,23 @@
+{
+  "titulo_commons": "File:Kangaroo Australia 01 11 2008 - retouch.JPG",
+  "pagina": "https://commons.wikimedia.org/wiki/File:Kangaroo_Australia_01_11_2008_-_retouch.JPG",
+  "arquivo_original_url": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Kangaroo_Australia_01_11_2008_-_retouch.JPG",
+  "autor": "Mark Wagner (User:Carnildo), retoque sobre foto de User:Lilly M (Wikimedia Commons)",
+  "licenca": "CC BY-SA 3.0",
+  "licenca_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "descricao_commons": "Macropus giganteus, femea em reserva de conservacao, Blue Mountains, Australia",
+  "atribuicao_sugerida": "Foto: Mark Wagner, a partir de imagem de Lilly M, Wikimedia Commons, CC BY-SA 3.0",
+  "original_px": [
+    3872,
+    2592
+  ],
+  "original_sha256": "322f9a111b85334870dd9fc70b342610d58328e8e8e29d66df502292f9b12ad1",
+  "imagem_usada": "imagem.jpg",
+  "imagem_usada_px": [
+    1600,
+    1071
+  ],
+  "imagem_usada_sha256": "d322d53f8fd414e9057c5653c453cce0b5cbe1fbcaa07ba24835d971aa89a534",
+  "processamento": "redimensionada para 1600 px no lado maior com PIL LANCZOS, JPEG qualidade 95; sem recorte",
+  "baixado_em": "2026-10-13"
+}
