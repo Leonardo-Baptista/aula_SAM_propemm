@@ -1,0 +1,22 @@
+{
+    // Interpretador do venv criado por "py -3.12 -m venv .venv" (Windows).
+    // Linux e macOS: troque por "${workspaceFolder}/.venv/bin/python".
+    "python.defaultInterpreterPath": "${workspaceFolder}\.venv\Scripts\python.exe",
+    "python.terminal.activateEnvironment": true,
+    "python.testing.pytestEnabled": true,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestArgs": ["testes"],
+    "jupyter.notebookFileRoot": "${workspaceFolder}/notebooks",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.pytest_cache": true
+    },
+    "search.exclude": {
+        ".venv*/**": true,
+        "checkpoints/**": true,
+        "saidas/**": true,
+        "externo/**": true,
+        "_local/**": true
+    },
+    "files.eol": "\n"
+}

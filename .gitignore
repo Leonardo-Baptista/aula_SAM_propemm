@@ -1,0 +1,31 @@
+# ambientes
+.venv*/
+venv/
+# pesos (baixados por scripts/obter_checkpoint.py ou pelo aplicativo)
+checkpoints/
+*.pt
+*.pth
+*.safetensors
+# código externo instalado localmente
+externo/
+# saídas do aplicativo, dos notebooks e dos exemplos
+saidas/
+runs/
+notebooks/sam_aula_cache/
+sam_aula_cache/
+# material local que não é publicado
+_local/
+resultados_aula_v2/
+resultados_aula_v3/
+# vídeos (baixe pelos links em exemplos/LEIA.md)
+*.mp4
+*.webm
+*.ogv
+*.avi
+*.mov
+*.mkv
+# caches
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/

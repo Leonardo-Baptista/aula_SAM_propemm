@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "SAM Anota",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "sam_anota",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "SAM Anota (forçar CPU)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "sam_anota",
+            "args": ["--dispositivo", "cpu"],
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

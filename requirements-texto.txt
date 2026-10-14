@@ -1,0 +1,3 @@
+# Opcional: modo texto (Grounding DINO tiny + SAM; SAM 3 se houver acesso aos pesos).
+# scripts/instalar.py --texto
+transformers==5.19.0

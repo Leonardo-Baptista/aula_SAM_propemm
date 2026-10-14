@@ -1,0 +1,6 @@
+# Opcional: rodar os notebooks localmente (no Colab nada disso é preciso).
+# scripts/instalar.py --notebooks
+matplotlib==3.11.2
+ipykernel==7.4.0
+jupyter==1.1.1
+segment-anything==1.0

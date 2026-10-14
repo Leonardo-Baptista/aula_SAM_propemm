@@ -1,0 +1,13 @@
+# Dependências do aplicativo (sam_anota), versões testadas em 14/10/2026
+# (Windows 11, Python 3.12.10). O torch e o sam2 NÃO estão aqui: o torch depende
+# de CPU ou CUDA e o sam2 vem do GitHub oficial; os dois são instalados por
+# scripts/instalar.py (ver docs/INSTALACAO.md).
+customtkinter==6.0.0
+pillow==12.3.0
+numpy==2.5.2
+opencv-python-headless==5.0.0.93
+pycocotools==2.0.11
+pytest==9.1.1
+# necessário para instalar o sam2 com --no-build-isolation
+setuptools==78.1.0
+wheel==0.48.0

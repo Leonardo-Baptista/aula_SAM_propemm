@@ -1,0 +1,55 @@
+{
+    // Menu Terminal > Run Task. Comandos para Windows; em Linux e macOS a
+    // variante "linux"/"osx" usa python3 e .venv/bin/python.
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Criar ambiente (.venv)",
+            "type": "shell",
+            "command": "py -3.12 -m venv .venv",
+            "linux": { "command": "python3.12 -m venv .venv" },
+            "osx": { "command": "python3.12 -m venv .venv" },
+            "problemMatcher": []
+        },
+        {
+            "label": "Instalar (CPU)",
+            "type": "shell",
+            "command": ".venv\Scripts\python scripts\instalar.py --cpu --opcionais",
+            "linux": { "command": ".venv/bin/python scripts/instalar.py --cpu --opcionais" },
+            "osx": { "command": ".venv/bin/python scripts/instalar.py --cpu --opcionais" },
+            "problemMatcher": []
+        },
+        {
+            "label": "Instalar (GPU NVIDIA, CUDA 12.4)",
+            "type": "shell",
+            "command": ".venv\Scripts\python scripts\instalar.py --gpu --opcionais",
+            "linux": { "command": ".venv/bin/python scripts/instalar.py --gpu --opcionais" },
+            "problemMatcher": []
+        },
+        {
+            "label": "Verificar ambiente",
+            "type": "shell",
+            "command": ".venv\Scripts\python scripts\verificar.py",
+            "linux": { "command": ".venv/bin/python scripts/verificar.py" },
+            "osx": { "command": ".venv/bin/python scripts/verificar.py" },
+            "problemMatcher": []
+        },
+        {
+            "label": "Rodar testes",
+            "type": "shell",
+            "command": ".venv\Scripts\python -m pytest -q",
+            "linux": { "command": ".venv/bin/python -m pytest -q" },
+            "osx": { "command": ".venv/bin/python -m pytest -q" },
+            "group": { "kind": "test", "isDefault": true },
+            "problemMatcher": []
+        },
+        {
+            "label": "Abrir o aplicativo",
+            "type": "shell",
+            "command": ".venv\Scripts\python -m sam_anota",
+            "linux": { "command": ".venv/bin/python -m sam_anota" },
+            "osx": { "command": ".venv/bin/python -m sam_anota" },
+            "problemMatcher": []
+        }
+    ]
+}

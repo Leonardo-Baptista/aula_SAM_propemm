@@ -1,0 +1,3 @@
+# Opcional: SAM 1 (ViT-B, ViT-L, ViT-H) no aplicativo e no notebook 01.
+# scripts/instalar.py --sam1
+segment-anything==1.0

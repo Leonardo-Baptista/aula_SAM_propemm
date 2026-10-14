@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "Se usar este material, cite assim."
+title: "Aula de SAM: anotação com o Segment Anything Model, do clique ao treino"
+authors:
+  - family-names: "Batista"
+    given-names: "Leonardo Gonçalves"
+date-released: 2026-10-14
+version: "1.0.0"
+license: MIT
+repository-code: "https://github.com/Leonardo-Baptista/aula_SAM_propemm"
+abstract: >-
+  Material da aula sobre o Segment Anything Model na disciplina Tópicos
+  Complementares de Visão Computacional (PMM.051), PROPEMM, IFES, 14/10/2026.
+  Aplicativo desktop de anotação com SAM 2.1 e SAM 1 (pontos, caixa e texto),
+  medição de tempo em CPU e GPU, comparação entre o escore previsto pelo modelo e
+  a IoU real contra máscaras de referência em imagens difíceis (fumaça, trincas,
+  microestrutura), exportação para treino (YOLO-seg, COCO e máscaras semânticas),
+  notebooks e exemplos de YOLO com SAM.
+keywords:
+  - segment anything
+  - SAM
+  - SAM 2
+  - anotação de imagens
+  - segmentação
+  - visão computacional
+references:
+  - type: article
+    title: "Segment Anything"
+    authors:
+      - family-names: "Kirillov"
+        given-names: "Alexander"
+      - name: "et al."
+    year: 2023
+    url: "https://arxiv.org/abs/2304.02643"
+  - type: article
+    title: "SAM 2: Segment Anything in Images and Videos"
+    authors:
+      - family-names: "Ravi"
+        given-names: "Nikhila"
+      - name: "et al."
+    year: 2024
+    url: "https://arxiv.org/abs/2408.00714"
+  - type: article
+    title: "SAM 3: Segment Anything with Concepts"
+    authors:
+      - family-names: "Carion"
+        given-names: "Nicolas"
+      - name: "et al."
+    year: 2025
+    notes: "ICLR 2026"
+    url: "https://arxiv.org/abs/2511.16719"
+  - type: article
+    title: "Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection"
+    authors:
+      - family-names: "Liu"
+        given-names: "Shilong"
+      - name: "et al."
+    year: 2024
+    url: "https://arxiv.org/abs/2303.05499"

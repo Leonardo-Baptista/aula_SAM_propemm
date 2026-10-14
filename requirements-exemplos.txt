@@ -1,0 +1,4 @@
+# Opcional: exemplos/ com YOLO. A ultralytics é AGPL-3.0: ela NÃO é dependência do
+# aplicativo (MIT). Instale à parte, de preferência num venv separado, e só se
+# aceitar os termos da AGPL-3.0 para o seu uso.
+ultralytics==8.4.177
